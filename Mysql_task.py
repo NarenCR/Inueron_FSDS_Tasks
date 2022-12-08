@@ -17,7 +17,7 @@ except Exception as e:
 lg.info('Connecting to SQL database')
 
 try:
-    eng = create_engine('mysql+pymysql://Naren:Naren8485@localhost/dress_sales')
+    eng = create_engine('mysql+pymysql://Naren:*******5@localhost/dress_sales')
     conc = eng.connect()
     lg.info("connection established ")
 except Exception as el:
